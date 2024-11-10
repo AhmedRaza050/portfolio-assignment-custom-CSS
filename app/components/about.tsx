@@ -122,6 +122,7 @@
 
 
 "use client"
+import Image from "next/image";
 import React from "react";
 import { MdOutlinePentagon } from "react-icons/md";
 
@@ -138,11 +139,10 @@ function About() {
           textAlign: "center",
         }}
       >
-        <img
-          src="/myImage.png"
+        <Image  src="/myImage.png"
           alt="Profile Picture"
-          height="100%"
-          width="100%"
+          height={400}
+          width={400}
           style={{
             borderTopRightRadius: "50px",
             borderBottomLeftRadius: "50px",
@@ -150,6 +150,7 @@ function About() {
             maxWidth: "100%",
             height: "auto",
           }}
+         
         />
       </div>
 
