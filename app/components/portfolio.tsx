@@ -240,6 +240,7 @@
 
 
 
+import Image from "next/image";
 import React from "react";
 
 function Portfolio() {
@@ -274,8 +275,8 @@ function Portfolio() {
             position: "relative",
           }}>
             <div style={{ display: "flex" }}>
-              <img src="ecommerce2.png" alt="E-commerce preview 2" width={193} height={342} style={{ position: "absolute", marginLeft: "90px" }} />
-              <img src="ecommerce.png" alt="E-commerce preview" width={193} height={342} />
+              <Image src="ecommerce2.png" alt="E-commerce preview 2" width={193} height={342} style={{ position: "absolute", marginLeft: "90px" }} />
+              <Image src="ecommerce.png" alt="E-commerce preview" width={193} height={342} />
             </div>
           </div>
           <h2 style={{
@@ -300,8 +301,8 @@ function Portfolio() {
             position: "relative",
           }}>
             <div style={{ display: "flex" }}>
-              <img src="portfolio_project.png" alt="Portfolio preview" width={193} height={342} style={{ position: "absolute", marginLeft: "90px" }} />
-              <img src="portfolio_project2.png" alt="Portfolio preview 2" width={193} height={342} />
+              <Image src="portfolio_project.png" alt="Portfolio preview" width={193} height={342} style={{ position: "absolute", marginLeft: "90px" }} />
+              <Image src="portfolio_project2.png" alt="Portfolio preview 2" width={193} height={342} />
             </div>
           </div>
           <h2 style={{
@@ -326,8 +327,8 @@ function Portfolio() {
             position: "relative",
           }}>
             <div style={{ display: "flex" }}>
-              <img src="ui_design.png" alt="UI design preview" width={193} height={342} style={{ position: "absolute", marginLeft: "90px" }} />
-              <img src="ui_design2.png" alt="UI design preview 2" width={193} height={342} />
+              <Image src="ui_design.png" alt="UI design preview" width={193} height={342} style={{ position: "absolute", marginLeft: "90px" }} />
+              <Image src="ui_design2.png" alt="UI design preview 2" width={193} height={342} />
             </div>
           </div>
           <h2 style={{
