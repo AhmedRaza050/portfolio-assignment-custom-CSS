@@ -130,7 +130,7 @@ export default function ContactMe() {
       <h3 style={{ fontSize: '18px', color: '#000', marginBottom: '10px', fontWeight: 'bold' }}>CONTACT ME</h3>
       <h1 style={{ fontSize: '28px', color: '#9024B6', marginBottom: '20px' }}>Let&apos;s Make Something Together</h1>
       <p style={{ fontSize: '16px', color: '#000000', marginBottom: '40px', lineHeight: '1.5' }}>
-        Connect With Us Effortlessly. Click The &quot;Contact Me&quot; Button To Reach Out And Let's Discuss How We Can
+        Connect With Us Effortlessly. Click The &quot;Contact Me&quot; Button To Reach Out And Let&apos;s Discuss How We Can
         <br /> Transform Your Digital Experiences Into Unforgettable Journeys.
       </p>
 
