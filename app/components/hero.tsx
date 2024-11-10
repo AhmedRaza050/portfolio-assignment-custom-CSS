@@ -78,7 +78,7 @@
   "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { FaVolleyballBall } from "react-icons/fa";
+
 
 function Hero() {
   return (
